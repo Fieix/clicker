@@ -18,7 +18,11 @@ html, body {
 .author {
     font-size: 25px;
     color: rgb(105, 105, 105);
-    margin-top: 120px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: bottom;
+    align-items: bottom;
+
 }
 
 .clicker {
@@ -36,6 +40,17 @@ html, body {
 }
 
 .button {
-    width: 150px;
-    height: 150px;
+    width: 155px;
+    height: 155px;
+    color: black;
 }
+
+.counter {
+    font-size: 36px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+
